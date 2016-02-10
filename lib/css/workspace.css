@@ -8,7 +8,7 @@
 	font-size: 12px;
 
 	/* Make Unselectable */
-	-webkit-user-select: none; /* Chrome/Safari */        
+	-webkit-user-select: none; /* Chrome/Safari */
 	-moz-user-select: none; /* Firefox */
 	-ms-user-select: none; /* IE10+ */
 
@@ -93,7 +93,7 @@
 /* = Search Facet = */
 /* ================ */
 
-.VS-search .search_parameter {
+.search_parameter {
 	float: left;
 	margin: 0.5px 2px;
 	padding: 0.5px 4px 0 18px;
@@ -103,7 +103,7 @@
 	cursor: pointer;
 	line-height: 18px;
 }
-.VS-search .search_parameter.selected {
+.search_parameter.selected {
 	-webkit-border-radius: 16px;
 	-moz-border-radius: 16px;
 	border-radius: 16px;
@@ -113,32 +113,32 @@
 	background-image: linear-gradient(top, #d2e6fd, #b0d1f9);
 	border: 1px solid #6eadf5;
 }
-.VS-search .search_parameter div{
+.search_parameter div{
 	float: left;
 	margin: 0 2px;
 
 }
-.VS-search .search_parameter div:hover{
+.search_parameter div:hover{
 	color: #000;
 }
-.VS-search .search_parameter div.key {
+.search_parameter div.key {
 	float: left;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 10px;
 	color: #808080;
 }
-.VS-search .search_parameter.is_selected div.key {
+.search_parameter.is_selected div.key {
 	margin-left: 3px;
 }
-.VS-search .search_parameter div.operator {
+.search_parameter div.operator {
 	font-style: italic;
 }
-.VS-search .search_parameter .search_parameter_input_container {
+.search_parameter .search_parameter_input_container {
 	float: left;
 }
 
-.VS-search .search_parameter input{
+.search_parameter input{
 	margin: 0;
 	padding: 0;
 	color: #000;
@@ -147,22 +147,22 @@
 
 
 
-.VS-search .search_parameter .search_parameter_remove {
+.search_parameter .search_parameter_remove {
 	position: absolute;
 	left: 2px;
 	top: 3px;
 }
-.VS-search .search_parameter.is_selected .search_parameter_remove {
+.search_parameter.is_selected .search_parameter_remove {
 	opacity: 0.4;
 	left: 3px;
 	filter: alpha(opacity=40);
 	background-position: center -11px;
 }
-.VS-search .search_parameter .search_parameter_remove:hover {
+.search_parameter .search_parameter_remove:hover {
 	opacity: 1;
 }
-.VS-search .search_parameter.is_editing .key,
-.VS-search .search_parameter.is_selected .key {
+.search_parameter.is_editing .key,
+.search_parameter.is_selected .key {
 	color: #000;
 }
 
